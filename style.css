@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    display: inline-block;
+}
+
+p {
+    color: black;
+}
+
+header {
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    width: 100px;
+}
+
+header .container a {
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inicio {
+    position: relative;
+}
+
+#inicio img {
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio {
+    position: absolute;
+    top: 50%;
+    
+}

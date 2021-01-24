@@ -157,6 +157,10 @@ header .container nav a {
     padding-left: 15px;
 }
 
+.columna-25 {
+    width: 25%;
+}
+
 .columna-33 {
     width: 33.3%;
 }
@@ -292,3 +296,32 @@ header .container nav a {
 #contactenos form .form-block.bloque-ultimo {
     margin-bottom: 0;
 }
+
+footer.seccion{
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+
+}
+
+footer .barra-footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+footer .logo-footer{
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
